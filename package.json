@@ -7,7 +7,7 @@
     "sign": "web-ext sign --api-key=$AMO_ISSUER --api-secret=$AMO_SECRET"
   },
   "author": "imaginary-upside",
-  "license": "AGPL-3.0-only",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "web-ext": "^4.1"
   }

@@ -9,7 +9,6 @@
   "author": "imaginary-upside",
   "license": "AGPL-3.0-only",
   "devDependencies": {
-    "web-ext": "^4.1",
-    "env-cmd": "^10.1"
+    "web-ext": "^4.1"
   }
 }

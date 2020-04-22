@@ -1,0 +1,13 @@
+.qj-torrents {
+  width: 98%;
+  margin: 10px;
+}
+
+.qj-torrents thead {
+  border-bottom: 1px solid black;
+}
+
+.qj-torrents th,
+.qj-torrents td {
+  padding: 0px 5px;
+}

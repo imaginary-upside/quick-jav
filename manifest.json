@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Quick JAV",
+  "version": "1.0.0",
+  "description": "Embeds sukebei results on r18.",
+
+  "permissions": [
+    "https://sukebei.nyaa.si/?q=*",
+    "webRequest"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.r18.com/videos/vod/movies/detail/*"
+      ],
+      "js": ["src/main.js"],
+      "css": ["src/style.css"]
+    }
+  ]
+}
